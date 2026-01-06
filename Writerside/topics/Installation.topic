@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Installation" id="Installation">
+    <section-starting-page>
+        <title>Installation</title>
+        <description>
+            The recommended way to install and run Media Manager is using Docker and Docker Compose. Other installation
+            methods are not officially supported, but listed here for convenience.
+        </description>
+        <spotlight>
+            <card href="configuration-overview.md" badge="start"
+                  summary="Installation using Docker Compose"/>
+            <card href="nix-flake.md" badge="world"
+                  summary="Installation using Nix Flakes"/>
+        </spotlight>
+    </section-starting-page>
+</topic>
